@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D26FA5D229A67032003A17CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26FA5D129A67032003A17CC /* ProfileViewController.swift */; };
 		D2E15D9629A666E600064D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9529A666E600064D10 /* AppDelegate.swift */; };
 		D2E15D9829A666E600064D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9729A666E600064D10 /* SceneDelegate.swift */; };
 		D2E15D9A29A666E600064D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9929A666E600064D10 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D26FA5D129A67032003A17CC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D2E15D9229A666E600064D10 /* Tech Social Media App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Social Media App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E15D9529A666E600064D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E15D9729A666E600064D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D2E15D9729A666E600064D10 /* SceneDelegate.swift */,
 				D2E15D9929A666E600064D10 /* ViewController.swift */,
 				D2E15D9B29A666E600064D10 /* Main.storyboard */,
+				D26FA5D129A67032003A17CC /* ProfileViewController.swift */,
 				D2E15D9E29A666E600064D10 /* Assets.xcassets */,
 				D2E15DA029A666E600064D10 /* LaunchScreen.storyboard */,
 				D2E15DA329A666E600064D10 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				D2E15D9A29A666E600064D10 /* ViewController.swift in Sources */,
 				D2E15D9629A666E600064D10 /* AppDelegate.swift in Sources */,
+				D26FA5D229A67032003A17CC /* ProfileViewController.swift in Sources */,
 				D2E15D9829A666E600064D10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D222A5C429D73F620070E18C /* FullPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222A5C329D73F620070E18C /* FullPostTableViewCell.swift */; };
+		D222A5C629D73FB60070E18C /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222A5C529D73FB60070E18C /* CommentTableViewCell.swift */; };
 		D26FA5D229A67032003A17CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26FA5D129A67032003A17CC /* ProfileViewController.swift */; };
+		D2C3B2DF29CB51E0003A7E91 /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C3B2DE29CB51E0003A7E91 /* CommentsTableViewController.swift */; };
 		D2E15D9629A666E600064D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9529A666E600064D10 /* AppDelegate.swift */; };
 		D2E15D9829A666E600064D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9729A666E600064D10 /* SceneDelegate.swift */; };
 		D2E15D9A29A666E600064D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15D9929A666E600064D10 /* ViewController.swift */; };
 		D2E15D9D29A666E600064D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E15D9B29A666E600064D10 /* Main.storyboard */; };
 		D2E15D9F29A666E600064D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E15D9E29A666E600064D10 /* Assets.xcassets */; };
 		D2E15DA229A666E600064D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E15DA029A666E600064D10 /* LaunchScreen.storyboard */; };
+		D2F755F529C9F4E400BEA0B5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F755F429C9F4E400BEA0B5 /* PostTableViewCell.swift */; };
+		D2F755F729C9FF9300BEA0B5 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F755F629C9FF9300BEA0B5 /* PostsTableViewController.swift */; };
+		D2F755F929CA00CF00BEA0B5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F755F829CA00CF00BEA0B5 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D222A5C329D73F620070E18C /* FullPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPostTableViewCell.swift; sourceTree = "<group>"; };
+		D222A5C529D73FB60070E18C /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		D26FA5D129A67032003A17CC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D2C3B2DE29CB51E0003A7E91 /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
 		D2E15D9229A666E600064D10 /* Tech Social Media App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Social Media App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E15D9529A666E600064D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E15D9729A666E600064D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,9 @@
 		D2E15D9E29A666E600064D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E15DA129A666E600064D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E15DA329A666E600064D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F755F429C9F4E400BEA0B5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		D2F755F629C9FF9300BEA0B5 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		D2F755F829CA00CF00BEA0B5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				D2E15D9729A666E600064D10 /* SceneDelegate.swift */,
 				D2E15D9929A666E600064D10 /* ViewController.swift */,
 				D2E15D9B29A666E600064D10 /* Main.storyboard */,
+				D2C3B2DE29CB51E0003A7E91 /* CommentsTableViewController.swift */,
+				D222A5C329D73F620070E18C /* FullPostTableViewCell.swift */,
+				D222A5C529D73FB60070E18C /* CommentTableViewCell.swift */,
+				D2F755F829CA00CF00BEA0B5 /* File.swift */,
+				D2F755F629C9FF9300BEA0B5 /* PostsTableViewController.swift */,
+				D2F755F429C9F4E400BEA0B5 /* PostTableViewCell.swift */,
 				D26FA5D129A67032003A17CC /* ProfileViewController.swift */,
 				D2E15D9E29A666E600064D10 /* Assets.xcassets */,
 				D2E15DA029A666E600064D10 /* LaunchScreen.storyboard */,
@@ -142,7 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E15D9A29A666E600064D10 /* ViewController.swift in Sources */,
+				D222A5C429D73F620070E18C /* FullPostTableViewCell.swift in Sources */,
+				D2F755F729C9FF9300BEA0B5 /* PostsTableViewController.swift in Sources */,
+				D2F755F929CA00CF00BEA0B5 /* File.swift in Sources */,
+				D2C3B2DF29CB51E0003A7E91 /* CommentsTableViewController.swift in Sources */,
 				D2E15D9629A666E600064D10 /* AppDelegate.swift in Sources */,
+				D2F755F529C9F4E400BEA0B5 /* PostTableViewCell.swift in Sources */,
+				D222A5C629D73FB60070E18C /* CommentTableViewCell.swift in Sources */,
 				D26FA5D229A67032003A17CC /* ProfileViewController.swift in Sources */,
 				D2E15D9829A666E600064D10 /* SceneDelegate.swift in Sources */,
 			);
